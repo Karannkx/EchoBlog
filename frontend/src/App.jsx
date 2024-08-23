@@ -15,6 +15,8 @@ import AllAuthors from "./components/pages/AllAuthors";
 import { Context } from "./main";
 import axios from "axios";
 import UpdateBlog from "./components/pages/UpdateBlog";
+import AnimatedCursor from "react-animated-cursor";
+import ContactFormWithIcon from "./components/ContactFormWithIcon";
 
 const App = () => {
   const { setUser, isAuthenticated, setIsAuthenticated, user, setBlogs } =
@@ -52,6 +54,10 @@ const App = () => {
   }, [isAuthenticated, user]);
   return (
     <>
+          <AnimatedCursor
+        innerSize={16}
+        color="100,52,235"
+      />
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -66,6 +72,7 @@ const App = () => {
           <Route path="/blog/update/:id" element={<UpdateBlog />} />
         </Routes>
         <Footer />
+        <ContactFormWithIcon />
         <Toaster />
       </BrowserRouter>
     </>

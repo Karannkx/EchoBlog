@@ -190,7 +190,7 @@ const UpdateBlog = () => {
                   ? `${mainImagePreview}` // If paraOneImage exists, use it directly
                   : mainImage // Otherwise, use paraOneImagePreview
                   ? `${mainImage}`
-                  : "/imgPL.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
+                  : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
               }
               alt="subParaOneImg"
             />
@@ -222,7 +222,7 @@ const UpdateBlog = () => {
                   ? `${paraOneImagePreview}` // If paraOneImage exists, use it directly
                   : paraOneImage // Otherwise, use paraOneImagePreview
                   ? `${paraOneImage}`
-                  : "/imgPL.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
+                  : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
               }
               alt="subParaOneImg"
             />
@@ -257,7 +257,7 @@ const UpdateBlog = () => {
                   ? `${paraTwoImagePreview}` // If paraOneImage exists, use it directly
                   : paraTwoImage // Otherwise, use paraOneImagePreview
                   ? `${paraTwoImage}`
-                  : "/imgPL.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
+                  : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
               }
               alt="subParaOneImg"
             />
@@ -294,7 +294,7 @@ const UpdateBlog = () => {
                   ? `${paraThreeImagePreview}` // If paraOneImage exists, use it directly
                   : paraThreeImage // Otherwise, use paraOneImagePreview
                   ? `${paraThreeImage}`
-                  : "/imgPL.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
+                  : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp" // If neither paraOneImage nor paraOneImagePreview exists, use an empty string
               }
               alt="subParaOneImg"
             />

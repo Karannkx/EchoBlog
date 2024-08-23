@@ -22,6 +22,7 @@ const SideBar = ({ setComponent }) => {
       );
       setIsAuthenticated(false);
       toast.success(data.message);
+      setShow(false);
       navigateTo("/");
     } catch (error) {
       toast.error(error.response.data.message);
@@ -29,11 +30,15 @@ const SideBar = ({ setComponent }) => {
   };
 
   const gotoHome = () => {
+    setShow(false);
     navigateTo("/");
   };
+
   const handleComponent = (value) => {
     setComponent(value);
+    setShow(false);
   };
+
   return (
     <>
       <div className="icon-wrapper" onClick={() => setShow(!show)}>

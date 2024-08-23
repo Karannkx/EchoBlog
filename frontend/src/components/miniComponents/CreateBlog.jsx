@@ -156,7 +156,7 @@ const CreateBlog = () => {
           <div style={{ display: "flex", flexDirection: "column" }}>
             <label>BLOG MAIN IMAGE</label>
             <img
-              src={mainImagePreview ? `${mainImagePreview}` : "/imgPL.webp"}
+              src={mainImagePreview ? `${mainImagePreview}` : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp"}
               alt="mainImg"
               className="mainImg"
             />
@@ -182,7 +182,7 @@ const CreateBlog = () => {
             />
             <img
               src={
-                paraOneImagePreview ? `${paraOneImagePreview}` : "/imgPL.webp"
+                paraOneImagePreview ? `${paraOneImagePreview}` : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp"
               }
               alt="subParaOneImg"
             />
@@ -207,7 +207,7 @@ const CreateBlog = () => {
             />
             <img
               src={
-                paraTwoImagePreview ? `${paraTwoImagePreview}` : "/imgPL.webp"
+                paraTwoImagePreview ? `${paraTwoImagePreview}` : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp"
               }
               alt="subParaTwoImg"
             />
@@ -234,7 +234,7 @@ const CreateBlog = () => {
               src={
                 paraThreeImagePreview
                   ? `${paraThreeImagePreview}`
-                  : "/imgPL.webp"
+                  : "https://res.cloudinary.com/duwg1mctb/image/upload/v1724235230/palzhm6swvenh6g2jzlb.webp"
               }
               alt="subParaThreeImg"
             />
